@@ -1,6 +1,6 @@
 .App {
-  text-align: center;
-  background-color: #000000;
+  text-align: left;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,7 @@
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
