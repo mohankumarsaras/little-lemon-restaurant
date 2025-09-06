@@ -1,16 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Header from './Header';
+import Nav from "./components/Nav"
+import Header from "./components/Header"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-   <div>
-  <ul>
-    <li><a href="/home">Homepage</a></li>
-    <li><a href="/about">About Us</a></li>
-    <li><a href="/blog">Blog</a></li>
-  </ul>
-</div>
+    <div>
+    <React.Fragment>
+      <Nav />
+      <Main />
+      <Footer />
+    </React.Fragment>
+    </div>
   );
 }
 
